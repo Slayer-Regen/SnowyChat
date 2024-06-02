@@ -1,8 +1,14 @@
-# MERN Stack Project: Build and Deploy a Real Time Chat App | JWT, Socket.io
+# SnowyChat
+Real Time ChatApp created with Vite+React as frontend framework, It allows users to login/signup securely and send real-time messages to any user present in the app
+Main motive behind this project is to connect with everyone in my college without having to share any email or Phone no.
+Users can be create their profile just by giving a unique username and a password.
+This project will be helpful to those who wants to connect without having to reveal their personal details(phone no, email,profile picture).
+Once a user is created, he/she can see all the users who have signed up and can chat with anyone. This is really helpful if you are in a college as you connect with anyone.
 
-![Demo App](https://i.ibb.co/fXmZdnz/Screenshot-10.png)
 
-[Video Tutorial on Youtube](https://youtu.be/HwCqsOis894)
+![Demo App]([https://i.ibb.co/fXmZdnz/Screenshot-10.png])
+
+
 
 Some Features:
 
@@ -12,8 +18,10 @@ Some Features:
 -   🚀 Online user status (Socket.io and React Context)
 -   👌 Global state management with Zustand
 -   🐞 Error handling both on the server and on the client
--   ⭐ At the end Deployment like a pro for FREE!
--   ⏳ And much more!
+-   ⭐ Deployed on render
+
+#  Live Link
+https://snowychat.onrender.com/
 
 ### Setup .env file
 
@@ -21,7 +29,7 @@ Some Features:
 PORT=...
 MONGO_DB_URI=...
 JWT_SECRET=...
-NODE_ENV=...
+
 ```
 
 ### Build the app
